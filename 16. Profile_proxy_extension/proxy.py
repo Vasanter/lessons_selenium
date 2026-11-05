@@ -30,6 +30,6 @@ driver = webdriver.Chrome(seleniumwire_options=proxy_options, options=options)
 
 # Проверим IP
 driver.get("https://httpbin.org/ip")
-time.sleep(3)
+time.sleep(5)
 
 driver.quit()
